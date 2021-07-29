@@ -17,7 +17,7 @@ font-size: 64px;
        }
        
        a:visited {
-        color: purple;
+        color: rgb(100, 4, 100);
        }
        
        a:hover {
@@ -25,7 +25,7 @@ font-size: 64px;
        }
        
        a:active {
-         color: red;
+         color: rgb(235, 151, 151)
        } 
        #sticky-title{
         position: -webkit-sticky; /* Safari */
