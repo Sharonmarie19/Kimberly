@@ -34,11 +34,8 @@ li{
     height: 300px;
 }
 a{
-   
-    padding: 8px;
-    font-size: 20px;
-    text-decoration: none;
-   
+   padding: 8px;
+    text-decoration: none;   
 }
 #images{
     position: relative;
@@ -47,12 +44,10 @@ a{
    justify-content: space-evenly;
     
 }
-.desc{
-    font-size: 18px;
-    text-align: center;
-}
+
 a:link {
    color: black;
+   font-size: 20px;
   }
   
   a:visited {

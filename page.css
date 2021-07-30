@@ -25,16 +25,17 @@ font-size: 64px;
        }
        
        a:active {
-         color: rgb(235, 151, 151)
+         color: rgb(235, 151, 151);
        } 
        #sticky-title{
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
        }
-       #history-list{
+       #list{
         position: relative;
         display: flex;
         padding: 40px;
        justify-content: space-evenly; 
        }
+       
