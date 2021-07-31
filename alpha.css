@@ -60,11 +60,11 @@ a:link {
   }
   
   a:visited {
-   color: rgb(100, 4, 100);
+   color: rgb(128, 109, 3);
   }
   
   a:hover {
-    color: blue;
+    color: rgb(255, 238, 0);
   }
   
   a:active {
