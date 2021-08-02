@@ -79,49 +79,56 @@ a:link {
       color: #ffffff;
       border-radius: 5px;
       width: 80px;
-      height: 25px;
+      height: 15px;
   }
-  .dropbtn1 {
+  h6{
+      margin: 2px;
+      font-style: italic;
+      font-size: 14px;
+  }
+  .drop-button {
     background-color: #ffffff;
     color: #000000;
-    padding: 16px;
+    padding: 5px;
     font-size: 16px;
     border: none;
     
   }
   
 
-  .drop1 {
+  .drop {
     position: relative;
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
   }
   
  
-  .dropcon1 {
-      
+  .drop-content {
+     padding-top: 10px;
+     padding-right: 25px;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    width: 450px;
-    margin: 10px;
+    width: 500px;
+    margin: 20px;
+    
   }
   
   
-  .dropcon1 a {
-    color: black;
-   
-    text-decoration: none;
+  .drop-content a {
+    color: rgb(83, 84, 156);
+   font-size: 16px;
+    text-decoration: underline;
     display: block;
   }
   
   
  
-  .drop1:hover .dropcon1 {display: block;}
+  .drop:hover .drop-content{display: block;}
   
   
-  .drop1:hover .dropbtn1 {background-color: #ffffff;}
+  .drop:hover .dropbutton {background-color: #ffffff;}
 
