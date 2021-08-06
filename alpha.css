@@ -59,16 +59,16 @@ a:link {
    color: black;
   }
   
-  a:visited {
+  /* a:visited {
    color: rgb(128, 109, 3);
-  }
+  } */
   
   a:hover {
     color: rgb(255, 238, 0);
   }
   
   a:active {
-    color: rgb(235, 151, 151);
+    color: rgb(151, 174, 235);
   } 
   #comment{
       width: 550px;
