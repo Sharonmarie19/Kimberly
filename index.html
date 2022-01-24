@@ -4,15 +4,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="film.html">
-  <link rel="stylesheet" href="cooking.html">
-  <link rel="stylesheet" href="history.html">
+ 
   <link rel="stylesheet" href="base.css">
-  <link rel="stylesheet" href="books.html">
-  <link rel="stylesheet" href="page.css">
-  <link rel="stylesheet" href="podcasts.css">
-  <link rel="stylesheet" href="podcasts.html">
-  <link rel="stylesheet" href="nav-menu.css"> 
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="scr" href="navbar.js"> 
+    <link rel="stylesheet" href="nav-menu.css"> 
+    <link rel="stylesheet" href="film.html">
+    <link rel="stylesheet" href="docs.html">
+    <link rel="stylesheet" href="read.html">
+    <link rel="stylesheet" href="blog.html">
+    <link rel="stylesheet" href="contactform.html">
+    <link rel="stylesheet" href="itemform.css"> 
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   
   
   
@@ -20,81 +25,82 @@
   <title>Home Page</title>
 </head>
 <header>
-  <div >
-    <img src="images/art.jpg" alt="Black Art" id="hero">
-  </div>
-  <div id="nav-bar">
-    <nav>
-      <ul>
-        <a href="index.html">Home</a>
-        <div class="dropdown">
-                <a href="film.html" class= "dropbtn">Watch</a>
-            <div class="dropdown-content">             
-                
-                <a href="documentary.html">Documentaries</a>
-                <a href="tvshow.html">Television Shows</a>
-                <a href="educate.html">Lectures</a>
-                <a href="drama.html">Drama</a>
-                <a href="shorts.html">Shorts</a>
-                <a href="film.html">Film Blog</a>
-            </div>   
-          </div> 
-                
-          
+  
+  <div class="topnav">
+    <a href="#home" class="active">
+      <img src="images/kim.png" alt="kim logo" width="65">
+   </a>
     
-           
-        <div class="dropdown">
-                <a href="podcasts.html" class= "dropbtn">Listen</a>
-            <div class="dropdown-content">
-                
-               
-                
-            </div>   
-          </div> 
-         
-          <!-- <div class="dropdown">
-            <a href="cooking.html" class= "dropbtn">Eat</a>
-        <div class="dropdown-content">
-            
-            <a href="documentary.html">Recipes</a>
-            
-        </div>   
-      </div>  -->
+    <div id="myLinks">
+      
+      <a href="film.html">Watch</a> 
+      <a href="listen.html">Listen</a>
+      <a href="read.html">Read</a>
+      <a href="blog.html">Blog</a>
+      <a href="contactform.html">Contact</a>
+    </div>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
           
-          <div class="dropdown">
-            <a href="booksblog.html" class= "dropbtn">Read</a>
-        <div class="dropdown-content">
-            <a href="readthese.html">Read Me</a>
+         
+           
         </div>   
       </div> 
           
-                
+      <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+        </script>           
                 
         
         
-      </ul>
-    </nav>
+   
+   
 
   </div>
 </header>
 <body>
-  <h1 id="title">Site Name</h1>
-  <h4>About the site</h4>
-
-  <div id="images">
-    <img src="images/film.jpg" alt="Film images">
+  <h1 id="title">Horn of Plenty</h1>
   
 
+  <div class="wrapper">
+
+    <div class="item">
+    <img src="images/orangefilm.jpg" alt="Film images" width="200" height="150" id="imgs">
+    </div>
+
+    <div class="item">
+    <img src="images/bookstack.jpg" alt="Podcast mic" width="200" height="150"id="imgs">
+    </div>
+
+    <div class="item">
+    <img src="images/podheadphones.jpg" alt="Book Image" width="200" height="150" id="imgs">
+    </div>
+</div>
+<h4 id="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi quas aperiam magni delectus, perspiciatis sunt similique nobis ex quisquam. Facilis numquam autem quidem cum quos consequatur. Blanditiis, veritatis fugit!</h4>
   
-    <img src="images/podcast.png" alt="Podcast mic">
-  
-  
-  
-    <img src="images/books.jpg" alt="Book Image">
+<div class="wrapper">
+
+  <div class="item">
+  <img src="images/spike.jpg" alt="Film images" width="150" height="100" id="imgs">
   </div>
 
- 
+  <div class="item">
+  <img src="images/henrieta.jpg" alt="Podcast mic" width="150" height="100"id="imgs">
+  </div>
 
+  <div class="item">
+  <img src="images/gettin-grown.jpg" alt="Book Image" width="150" height="100" id="imgs">
+  </div>
+</div>  
 
 
 </body>

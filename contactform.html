@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="scr" href="navbar.js"> 
+    <link rel="stylesheet" href="nav-menu.css"> 
+    <link rel="stylesheet" href="film.html">
+    <link rel="stylesheet" href="docs.html">
+    <link rel="stylesheet" href="read.html">
+    <link rel="stylesheet" href="blog.html">
+    <link rel="stylesheet" href="contactform.html">
+    <link rel="stylesheet" href="itemform.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Contact Form</title>
+</head>
+<header>
+  
+    <div class="topnav">
+      <a href="index.html" class="active">
+        <img src="images/kim.png" alt="kim logo" width="65">
+     </a>
+      
+      <div id="myLinks">
+        
+        <a href="film.html">Watch</a> 
+        <a href="listen.html">Listen</a>
+        <a href="read.html">Read</a>
+        <a href="blog.html">Blog</a>
+        <a href="contactform.html">Contact</a>
+      </div>
+      
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+            
+           
+             
+          </div>   
+        </div> 
+            
+        <script>
+          function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+          </script>           
+                  
+          
+          
+     
+     
+  
+    </div>
+  </header>
+<body>
+    <h1>Contact Us</h1>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <br>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+     <br>
+          <label for="country">Email</label>
+          <input type="email" name="email" id="email" placeholder="Janed@hahaha.com">
+      <br>
+          <label for="subject">Subject</label> 
+          <textarea id="subject" name="subject" placeholder="Write something.." style="width:300px; height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>
