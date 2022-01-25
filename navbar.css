@@ -31,7 +31,7 @@
 
   .active {
     background-color: rgb(228, 173, 23);
-    color: black;
+    color: rgb(4, 68, 31);
   }
 
 /* .dropdown {
@@ -72,6 +72,3 @@
     display: block;
   } */
   /* media query */
-.nav-bar{
-    background-color: rgb(247, 211, 12);
-    justify-content: space-evenly;
