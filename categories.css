@@ -6,3 +6,30 @@ h1{
     padding: 20px;
     text-align: center;
 }
+.cat-wrapper{
+    padding-bottom: 20px;
+width: 100%;
+  overflow-x:scroll;
+  white-space: nowrap;
+  float:left;
+  position: relative;
+
+}
+.cat-item{
+    padding-top: 20px;
+    display: inline-block;  
+}
+#imgs{
+    border:10px solid rgb(228, 173, 23);
+   
+  
+}
+#cat-imgs{
+    border:3px solid rgb(228, 173, 23);
+    border-radius: 4px;
+  
+}
+#subtitle{
+    margin: 10px;
+    text-align: center;
+}
