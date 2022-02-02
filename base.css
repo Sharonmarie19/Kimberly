@@ -30,9 +30,27 @@ width: 100%;
 }
 #imgs{
     border:10px solid rgb(228, 173, 23);
-  
+    width: 150px;
+     height:100px;
 }
 #subtitle{
     margin: 10px;
     text-align: center;
 }
+@media only screen and (min-width: 450px) {
+   #title{
+       font-size: 100px;
+   }
+    #imgs{
+        border:10px solid rgba(228, 173, 23, 0.562);
+        border-radius: 4px;
+        padding: 40px;
+        width: 350px;
+        height: 300px;
+    }
+ #about{
+     font-size: 24px;
+     padding: 30px 30px 30px 30px ;
+ }
+    
+  }
