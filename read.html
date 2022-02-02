@@ -22,47 +22,39 @@
 </head>
 <header>
   
-    <div class="topnav">
-      <a href="index.html" class="active">
-        <img src="images/kim.png" alt="kim logo" width="45">
-     </a>
-      
-      <div id="myLinks">
-        
-        <a href="#watch">Watch</a> 
-        <a href="listen.html">Listen</a>
-        <a href="read.html">Read</a>
-        <a href="blog.html">Blog</a>
-        <a href="contactform.html">Contact</a>
-      </div>
-      
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-            
-           
-             
-          </div>   
-        </div> 
-            
-        <script>
-          function myFunction() {
-              var x = document.getElementById("myLinks");
-              if (x.style.display === "block") {
-                x.style.display = "none";
-              } else {
-                x.style.display = "block";
-              }
-            }
-          </script>           
-                  
-          
-          
-     
-     
+  <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="film.html">Watch</a>
+      <a href="listen.html">Podcasts</a>
+      <a href="read.html">Read</a>
+      <a href="contactform.html">Contact</a>
     </div>
-  </header>
+  
+  </div>
+  
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span onclick="openNav()"><img src="images/kim.png" alt=""></span>
+</header>
+    
+
+<body>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
 <body>
     <h1 id="title">Read With Me</h1>
     <h4>Featured This Month</h4>
